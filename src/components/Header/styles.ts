@@ -24,7 +24,7 @@ export const HeaderBar = styled.header<Props>`
     padding-top: 10%;
     padding-bottom: 10%;
   }
-`;
+`
 
 export const HeaderContent = styled.div`
   width: 100%;
@@ -33,6 +33,7 @@ export const HeaderContent = styled.div`
   align-items: center;
   font-size: 18px;
   font-weight: 900;
+
 
   @media (max-width: 768px) {
     display: flex;
@@ -58,6 +59,7 @@ export const Text = styled.p<Props>`
   width: 80%;
   max-width: 539px;
   text-align: center;
+  margin-top: 138px;
 
   @media (max-width: 768px) {
     font-size: 5vw;
