@@ -1,15 +1,14 @@
 import backgorund_LaDolceVita from '../../assets/images/background_LaDolceVita.png'
 import { Container } from '../../styles'
-import { ContentHero, ImgHero, TextHero } from './styles'
+import { ContentHero } from './styles'
 
 export const Hero = () => (
-  <ContentHero>
+  <ContentHero style={{ backgroundImage: `url(${backgorund_LaDolceVita})` }}>
     <Container>
-      <TextHero>
+      <div>
         <p>Italiana</p>
         <h4>La Dolce Vita Trattoria</h4>
-      </TextHero>
+      </div>
     </Container>
-    <ImgHero src={backgorund_LaDolceVita} alt="imagem do hero" />
   </ContentHero>
 )

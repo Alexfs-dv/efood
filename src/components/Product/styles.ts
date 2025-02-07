@@ -7,6 +7,7 @@ export const CardProduct = styled.div`
   color: ${cores.secundaria};
   padding: 8px;
   display: block;
+  margin-top: 32px;
 
   @media (max-width: 768px){
     margin-bottom: 32px;
