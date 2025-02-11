@@ -8,6 +8,10 @@ export const ContentHero = styled.div`
   width: 100%;
   top: 185px;
 
+  @media (max-width: 768px) {
+    background-size: cover;
+  }
+
   div {
     display: flex;
     flex-direction: column;
